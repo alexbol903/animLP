@@ -1,15 +1,8 @@
+sudo: false  
 language: node_js
 node_js:
   - "9"
-sudo: false  
 addons:
   chrome: stable
-before_install:
-  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=3000 http://localhost &
-cache: npm
-
-install:
-  - npm install
 script:
-  - npm run dev
   - npm test
