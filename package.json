@@ -1,12 +1,24 @@
 {
-	"name": "animlp.js",
+  "name": "animlp.js",
 	"version": "0.9.0",
 	"description": "Only 3kb, lightweight scroll animation library for landing pages",
 	"main": "lib/animLP.min.js",
 	"repository": "https://github.com/alexbol903/animLP.git",
 	"files": [
-		"lib/"
-	],
+    "lib/"
+  ],
+  "bugs": "https://github.com/alexbol903/animLP/issues",
+  "license": "MIT",
+  "keywords": [
+    "scroll",
+    "on scroll",
+    "animate",
+    "animations",
+    "animate on scroll",
+    "performance",
+    "css",
+    "landing page"
+  ],
 	"scripts": {
 		"dev": "gulp watch",
 		"build": "gulp",
@@ -34,17 +46,6 @@
 		"plugins": []
 	},
 	"author": "Alexey Bolotin <alexbol903@gmail.com>",
-	"license": "MIT",
-	"keywords": [
-		"scroll",
-		"on scroll",
-		"animate",
-		"animations",
-		"animate on scroll",
-		"performance",
-		"css",
-		"landing page"
-	],
 	"dependencies": {},
 	"devDependencies": {
 		"@babel/cli": "^7.4.4",
