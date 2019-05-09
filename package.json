@@ -3,10 +3,7 @@
 	"version": "0.9.0",
 	"description": "Only 3kb, lightweight scroll animation library for landing pages",
 	"main": "lib/animLP.min.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/alexbol903/animLP.git"
-	},
+	"repository": "https://github.com/alexbol903/animLP.git",
 	"files": [
 		"lib/"
 	],
@@ -36,7 +33,7 @@
 		],
 		"plugins": []
 	},
-	"author": "Alexey Bolotin",
+	"author": "Alexey Bolotin <alexbol903@gmail.com>",
 	"license": "MIT",
 	"keywords": [
 		"scroll",
