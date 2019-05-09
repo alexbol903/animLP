@@ -1,0 +1,31 @@
+body {
+  width: 100vw;
+	height: 100%;
+}
+
+.slide1,
+.slide2 {
+	text-align: center;
+	width: 500px;
+	height: 100vh;
+	margin: auto;
+}
+
+.btn {
+	margin-top: 100px;
+	font-size: 18px;
+	padding: 1em;
+	color: #fff;
+	background-color: #27a1da;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #27a1da;
+	border-color: #27a1da;
+}
+/* ----------------------------------------- */

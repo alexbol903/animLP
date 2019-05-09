@@ -1,0 +1,70 @@
+{
+	"name": "animlp.js",
+	"version": "1.0.0",
+	"description": "Only 3kb, lightweight scroll animation library for landing pages",
+	"main": "lib/animLP.min.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alexbol903/animLP.git"
+	},
+	"files": [
+		"lib/"
+	],
+	"scripts": {
+		"dev": "gulp watch",
+		"build": "gulp",
+		"test": "jest",
+		"test:watch": "jest --watchAll",
+		"test:cov": "jest --coverage",
+		"prepublish": "npm test"
+	},
+	"jest": {
+		"verbose": true,
+		"testRegex": "(<rootDir>/__tests__/.*|(\\.|/)(test|e2e))\\.js",
+		"testEnvironment": "jsdom"
+	},
+	"babel": {
+		"presets": [
+			[
+				"@babel/preset-env",
+				{
+					"targets": {
+						"node": "current"
+					}
+				}
+			]
+		],
+		"plugins": []
+	},
+	"author": "Alexey Bolotin",
+	"license": "MIT",
+	"keywords": [
+		"scroll",
+		"on scroll",
+		"animate",
+		"animations",
+		"animate on scroll",
+		"performance",
+		"css",
+		"landing page"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"@babel/cli": "^7.4.4",
+		"@babel/core": "^7.3.4",
+		"@babel/preset-env": "^7.3.4",
+		"babel-jest": "^24.8.0",
+		"browser-sync": "^2.26.3",
+		"gulp": "^4.0.0",
+		"gulp-autoprefixer": "^6.0.0",
+		"gulp-babel": "^8.0.0",
+		"gulp-concat": "^2.6.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-rename": "^1.4.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-sourcemaps": "^2.6.4",
+		"gulp-uglify": "^3.0.1",
+		"jest": "^24.7.1",
+		"puppeteer": "^1.15.0"
+	}
+}
