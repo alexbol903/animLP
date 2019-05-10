@@ -30,7 +30,6 @@
 
       clearParam() {
         this._param = {
-          startAnim: .1,
           once: true
         };
         return this;
