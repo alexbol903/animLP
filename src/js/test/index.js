@@ -30,7 +30,6 @@ const data = {
     }
   ],
   param: {
-    startAnim: 100,
     once: true
   }
 };

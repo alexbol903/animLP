@@ -1,6 +1,6 @@
 {
   "name": "animlp.js",
-	"version": "0.9.0",
+	"version": "0.9.1",
 	"description": "Only 3kb, lightweight scroll animation library for landing pages",
 	"main": "lib/animLP.min.js",
 	"repository": "https://github.com/alexbol903/animLP.git",

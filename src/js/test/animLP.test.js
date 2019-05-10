@@ -27,7 +27,6 @@ describe('#: animLP works with unit tests', () => {
   it('default parameters is correct', () => {
     const data = { elements: { class: 'up-1' } }
     const animlp = animLP(data).animLP;
-    expect(animlp.param.startAnim).toBe(.1);
     expect(animlp.param.once).toBeTruthy();
     expect(animlp.elem).toHaveLength(2);
     expect(animlp.elem[ 0 ].duration).toBe(500);
@@ -52,7 +51,6 @@ describe('#: animLP works with unit tests', () => {
       }
     }
     const animlp = animLP(data).animLP;
-    expect(animlp.param.startAnim).toBe(2);
     expect(animlp.param.once).toBeFalsy();
     expect(animlp.elem).toHaveLength(2);
     expect(animlp.elem[ 0 ].duration).toBe(600);

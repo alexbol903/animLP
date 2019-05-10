@@ -6,7 +6,6 @@
       constructor() {
         this._elem = [];
         this._param = {
-          startAnim: .1,
           once: true
         };
       }
@@ -43,9 +42,6 @@
         for (let key in value) {
           if (param.hasOwnProperty(key)) {
             let prop = value[ key ];
-            if (typeof prop === 'number') {
-              (prop ^ 0) === prop ? prop /= 100 : null;
-            }
             this._param[ key ] = prop;
           }
         }
@@ -128,13 +124,8 @@
           console.warn(`Warning: Need add class "animlp" to element - `, elem);
         }
 
-        if (!veiwport.top) {
-          offSetTop = coord.top + veiwport.top;
-          offSetBottom = coord.bottom + veiwport.top;
-        } else {
-          offSetTop = coord.top * param.startAnim  + veiwport.top;
-          offSetBottom = coord.bottom * param.startAnim + veiwport.top;
-        }
+        offSetTop = coord.top + veiwport.top;
+        offSetBottom = coord.bottom + veiwport.top;
 
         if (offSetBottom > veiwport.top && offSetTop < veiwport.bottom) {
           createAnimation(el);
@@ -182,13 +173,13 @@
       if (!prop) return;
       animLP.addElem(prop.elements).addParam(prop.param);
     }
-   
+
     window.addEventListener('load', checkElements);
     document.addEventListener('scroll', checkElements);
-    
+
     init(property);
 
-    return { init, animLP, checkElements, createViewport, createAnimation, property};
+    return { init, animLP, checkElements, createViewport, createAnimation, property };
 
   };
 
