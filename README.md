@@ -1,6 +1,6 @@
 # AnimLP [![npm version](https://badge.fury.io/js/animlp.js.svg)](https://www.npmjs.com/package/animlp.js) [![License: MIT](https://img.shields.io/github/license/alexbol903/animLP.svg?color=green-light)](https://github.com/alexbol903/animLP/blob/master/LICENSE) 
 
-[Documentation - Русская версия](https://github.com/alexbol903/animLP/blob/master/README.md)
+[Documentation - Russian version](https://github.com/alexbol903/animLP/blob/master/README.md)
 
 ### Fast and lightweight (only 3kb), a library for scroll animation web pages! ( vanilla JavaScript )
 
@@ -41,8 +41,8 @@ var animLP = require('animlp.js');
 ### Usage
 The library works only with classes!
 
-#####You need to add the class "animlp" to the element that will be animated.
-#####Example:
+##### You need to add the class "animlp" to the element that will be animated.
+##### Example:
 ```html 
 <p class="card__title-1 animlp">Hello world!</p>
 ```
