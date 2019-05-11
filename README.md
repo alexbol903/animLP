@@ -1,6 +1,6 @@
 # AnimLP [![npm version](https://badge.fury.io/js/animlp.js.svg)](https://www.npmjs.com/package/animlp.js) [![License: MIT](https://img.shields.io/github/license/alexbol903/animLP.svg?color=green-light)](https://github.com/alexbol903/animLP/blob/master/LICENSE) 
 
-[Documentation - Russian version](https://github.com/alexbol903/animLP/blob/master/README.md)
+[Documentation - Russian version](https://github.com/alexbol903/animLP/blob/master/README_ru-RU.md)
 
 ### Fast and lightweight (only 3kb), a library for scroll animation web pages! ( vanilla JavaScript )
 
