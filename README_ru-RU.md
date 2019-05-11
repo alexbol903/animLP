@@ -134,7 +134,7 @@ animLP({
 #####
 ## Customization
 ##### Елементы анимируются с помощью CSS.
-##### Вся анимация находиться в фаиле animlp.js/lib/css/animLP.css (минифицирован) или animlp.js/lib/scss/animLP.scss.
+##### Вся анимация находиться в фаиле `animlp.js/lib/css/animLP.css` (минифицирован) или `animlp.js/lib/scss/animLP.scss`.
 ##### Можно добавить любую свою анимацию в CSS файл и использовать уже свое имя анимации в настройках.
 
 #####
