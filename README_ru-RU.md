@@ -2,7 +2,7 @@
 
 [Documentation - English version](https://github.com/alexbol903/animLP/blob/master/README.md)
 
-##### Fast and lightweight (only 3kb), a library for scroll animation web pages!
+##### Быстрая и легкая (всего 3kb), библиотека для анимирования веб страниц!
 
 
 
@@ -39,10 +39,10 @@ var animLP = require('animlp.js');
 ```
 
 ### Usage
-The library works only with classes!
+Библиотека работает только с классами!
 
-You need to add the class "animlp" to the element that will be animated.
-Example:
+Нужно добавить класс "animlp" к элементу, который будет анимироватся.
+Пример:
 ```html 
 <p class="card__title-1 animlp">Hello world!</p>
 ```
@@ -52,21 +52,21 @@ Example:
     animLP({
       elements: 
         {
-          class: 'card__title-1',     // The class of the element to be animated.
-          duration: 800,              // Animation time in ms
-          delay: 100,                 // Delay before animation starts
-          func: 'ease',               // The function to perform the animation ( for example: cubic-bezier.com )
-          animation: 'fadeDown'       // Animation name
+          class: 'card__title-1',     // Класс элемента который будет анимироватся
+          duration: 800,              // Время выполнения анимации в милисикундах
+          delay: 100,                 // Задержка перед началом анимации в милисикундах
+          func: 'ease',               // Функция для выполнения анимации ( например: cubic-bezier.com )
+          animation: 'fadeDown'       // Название анимации
         }
       },
       param: {
-        once: false                   // Trigger animation "once" or "constantly"
+        once: false                   // Срабатывание анимации "один раз" или "постоянно" - (Boolean)
       }
     });
 ```
 
-If several elements are animated, the elements are wrapped in an array.
-Example:
+Если несколько элементов будут анимироватся то элементы оборачиваются в массив
+Пример:
 ```html
 <p class="card__title-1 animlp">Hello world!</p>
 <p class="card__title-2 animlp">Hello world again!!!</p>
@@ -97,8 +97,8 @@ animLP({
 });
 ```
 
-If different elements have the same animation, wrap the classes in an array.
-Example:
+Если у разных элементов одинаковая анимация, классы обернуть в массив
+Пример:
 ```html
 <p class="card__title-1 animlp">Hello world!</p>
 <p class="card__title-2 animlp">Hello world again!!!</p>
@@ -132,15 +132,15 @@ animLP({
 
 
 ## Customization
-Elements are animated with CSS.
-The whole animation is in the file animlp.js / lib / css / animLP.css (minified) or animlp.js / lib / scss / animLP.scss.
-You can add any of your animation in the CSS file and use your animation name in the settings.
+Елементы анимируются с помощью CSS.
+Вся анимация находиться в фаиле animlp.js/lib/css/animLP.css (минифицирован) или animlp.js/lib/scss/animLP.scss.
+Можно добавить любую свою анимацию в CSS файл и использовать уже свое имя анимации в настройках.
 
 
 ## Animation
-Animation can be seen here. -> [Animate.css](https://daneden.github.io/animate.css/)
+Анимацию можно посмотреть здесь -> [Animate.css](https://daneden.github.io/animate.css/)
 
-Default animation list:
+Список анимации по умолчанию:
 * `pulse`
 * `rubberBand`
 * `bounce`
@@ -172,7 +172,7 @@ Default animation list:
 
 
 ## Default options
-These parameters can be omitted, the default parameters will work.
+Эти параметры можно не указывать, сработают параметры по умолчанию
 |Property|Type|Default|
 |--------|----|-------|
 |`duration`|Number|**500**|
