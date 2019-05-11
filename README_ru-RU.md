@@ -2,7 +2,7 @@
 
 [Documentation - English version](https://github.com/alexbol903/animLP/blob/master/README.md)
 
-##### Быстрая и легкая (всего 3kb), библиотека для анимирования веб страниц! ( vanilla JavaScript )
+### Быстрая и легкая (всего 3kb), библиотека для анимирования веб страниц! ( vanilla JavaScript )
 
 
 
