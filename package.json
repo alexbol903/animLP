@@ -45,7 +45,7 @@
 		],
 		"plugins": []
 	},
-	"author": "Alexey Bolotin <alexbol903@gmail.com>",
+	"author": "alexbol903 <alexbol903@gmail.com>",
 	"dependencies": {},
 	"devDependencies": {
 		"@babel/cli": "^7.4.4",

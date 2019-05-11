@@ -184,3 +184,7 @@ animLP({
 |           |       |           |
 |           |       |           |
 |`once`     |Boolean| **true**  |
+
+#####
+## License
+#### Created by Alexey Bolotin. Released under the [MIT License](https://github.com/alexbol903/animLP/blob/master/LICENSE).
