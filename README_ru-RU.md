@@ -29,11 +29,8 @@ import animLP from 'animlp.js';
 // CommonJS modules
 var animLP = require('animlp.js');
 ```
-##### add styles
+##### Добавить фаил со стилями
 ```scss
-
-#### Добавить фаил со стилями
-
 // Webpack
 @import '~animlp.js/lib/css/animLP.css';
 
