@@ -189,4 +189,4 @@ animLP({
 
 #####
 ## License
-#### Created by Alexey Bolotin. Released under the [MIT License](https://github.com/alexbol903/animLP/blob/master/LICENSE).
+#### Created by [Alexey Bolotin](https://github.com/alexbol903). Released under the [MIT License](https://github.com/alexbol903/animLP/blob/master/LICENSE).
