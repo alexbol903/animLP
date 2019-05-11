@@ -39,7 +39,7 @@ var animLP = require('animlp.js');
 ```
 
 ### Usage
-The library works only with classes!
+**The library works only with classes!**
 
 ##### You need to add the class "animlp" to the element that will be animated.
 ##### Example:
@@ -65,8 +65,8 @@ The library works only with classes!
     });
 ```
 
-If several elements are animated, the elements are wrapped in an array.
-Example:
+##### If several elements are animated, the elements are wrapped in an array.
+##### Example:
 ```html
 <p class="card__title-1 animlp">Hello world!</p>
 <p class="card__title-2 animlp">Hello world again!!!</p>
@@ -97,8 +97,8 @@ animLP({
 });
 ```
 
-If different elements have the same animation, wrap the classes in an array.
-Example:
+##### If different elements have the same animation, wrap the classes in an array.
+##### Example:
 ```html
 <p class="card__title-1 animlp">Hello world!</p>
 <p class="card__title-2 animlp">Hello world again!!!</p>
@@ -132,15 +132,15 @@ animLP({
 
 
 ## Customization
-Elements are animated with CSS.
-The whole animation is in the file animlp.js / lib / css / animLP.css (minified) or animlp.js / lib / scss / animLP.scss.
-You can add any of your animation in the CSS file and use your animation name in the settings.
+##### Elements are animated with CSS.
+##### The whole animation is in the file animlp.js / lib / css / animLP.css (minified) or animlp.js / lib / scss / animLP.scss.
+##### You can add any of your animation in the CSS file and use your animation name in the settings.
 
 
 ## Animation
-Animation can be seen here. -> [Animate.css](https://daneden.github.io/animate.css/)
+##### Animation can be seen here. -> [Animate.css](https://daneden.github.io/animate.css/)
 
-Default animation list:
+##### Default animation list:
 * `pulse`
 * `rubberBand`
 * `bounce`
@@ -172,12 +172,12 @@ Default animation list:
 
 
 ## Default options
-These parameters can be omitted, the default parameters will work.
-|Property|Type|Default|
-|--------|----|-------|
-|`duration`|Number|**500**|
-|`delay`|Number|**0**|
-|`func`|String|**ease**|
-|`animation`|String|**fadeUp**|
-||
-|`once`|Boolean|**true**|
+##### These parameters can be omitted, the default parameters will work.
+| Property  | Type  | Default   |
+|-----------|-------|-----------|
+|`duration` | Number| **500**   |
+|`delay`    | Number| **0**     |
+|`func`     | String| **ease**  |
+|`animation`| String| **fadeUp**|
+|           |       |           |
+|`once`     |Boolean| **true**  |
