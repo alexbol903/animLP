@@ -28,7 +28,7 @@ import animLP from 'animlp.js';
 // CommonJS modules
 var animLP = require('animlp.js');
 ```
-##### add styles
+#### add styles
 ```scss
 
 // Webpack
@@ -41,7 +41,7 @@ var animLP = require('animlp.js');
 ### Usage
 **The library works only with classes!**
 
-##### You need to add the class "animlp" to the element that will be animated.
+#### You need to add the class "animlp" to the element that will be animated.
 ##### Example:
 ```html 
 <p class="card__title-1 animlp">Hello world!</p>
@@ -65,7 +65,7 @@ var animLP = require('animlp.js');
     });
 ```
 
-##### If several elements are animated, the elements are wrapped in an array.
+#### If several elements are animated, the elements are wrapped in an array.
 ##### Example:
 ```html
 <p class="card__title-1 animlp">Hello world!</p>
@@ -97,7 +97,7 @@ animLP({
 });
 ```
 
-##### If different elements have the same animation, wrap the classes in an array.
+#### If different elements have the same animation, wrap the classes in an array.
 ##### Example:
 ```html
 <p class="card__title-1 animlp">Hello world!</p>
@@ -138,9 +138,9 @@ animLP({
 
 
 ## Animation
-##### Animation can be seen here. -> [Animate.css](https://daneden.github.io/animate.css/)
+#### Animation can be seen here. -> [Animate.css](https://daneden.github.io/animate.css/)
 
-##### Default animation list:
+#### Default animation list:
 * `pulse`
 * `rubberBand`
 * `bounce`
@@ -172,12 +172,13 @@ animLP({
 
 
 ## Default options
-##### These parameters can be omitted, the default parameters will work.
+#### These parameters can be omitted, the default parameters will work.
 | Property  | Type  | Default   |
 |-----------|-------|-----------|
 |`duration` | Number| **500**   |
 |`delay`    | Number| **0**     |
 |`func`     | String| **ease**  |
 |`animation`| String| **fadeUp**|
+|           |       |           |
 |           |       |           |
 |`once`     |Boolean| **true**  |
