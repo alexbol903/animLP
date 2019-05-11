@@ -4,7 +4,7 @@
 
 ### Fast and lightweight (only 3kb), a library for scroll animation web pages! ( vanilla JavaScript )
 
-
+#
 
 ![](https://i.imgur.com/Gw97GlW.gif)
 
@@ -37,7 +37,7 @@ var animLP = require('animlp.js');
 // Other
 @import './node_modules/animlp.js/lib/css/animLP.css';
 ```
-
+#
 ### Usage
 **The library works only with classes!**
 
@@ -64,7 +64,7 @@ var animLP = require('animlp.js');
       }
     });
 ```
-
+#
 #### If several elements are animated, the elements are wrapped in an array.
 ##### Example:
 ```html
@@ -96,7 +96,7 @@ animLP({
   }
 });
 ```
-
+#
 #### If different elements have the same animation, wrap the classes in an array.
 ##### Example:
 ```html
@@ -130,7 +130,7 @@ animLP({
 });
 ```
 
-
+#
 ## Customization
 ##### Elements are animated with CSS.
 ##### The whole animation is in the file animlp.js / lib / css / animLP.css (minified) or animlp.js / lib / scss / animLP.scss.
@@ -139,7 +139,7 @@ animLP({
 
 ## Animation
 #### Animation can be seen here. -> [Animate.css](https://daneden.github.io/animate.css/)
-
+#
 #### Default animation list:
 * `pulse`
 * `rubberBand`
@@ -170,7 +170,7 @@ animLP({
 * `zoomRight`
 * `zoomUp`
 
-
+#
 ## Default options
 #### These parameters can be omitted, the default parameters will work.
 | Property  | Type  | Default   |
