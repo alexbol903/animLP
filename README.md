@@ -30,7 +30,7 @@ import animLP from 'animlp.js';
 var animLP = require('animlp.js');
 ```
 ```html
-# Add the script with CDN
+// Add the script with CDN
 <script src="https://unpkg.com/animlp.js@0.9.2/lib/animLP.min.js"></script>
 ```
 
