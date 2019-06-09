@@ -15,8 +15,11 @@
 # Install with NPM
 $ npm install --save animlp.js
 
-# and with Yarn
+# Install with Yarn
 $ yarn add animlp.js
+
+# Add the script with CDN
+<script src="https://unpkg.com/animlp.js@0.9.2/lib/animLP.min.js"></script>
 ```
 
 #####
@@ -27,6 +30,9 @@ import animLP from 'animlp.js';
 
 // CommonJS modules
 var animLP = require('animlp.js');
+
+// Add the style with CDN
+<link rel="stylesheet" href="https://unpkg.com/animlp.js@0.9.2/lib/css/animLP.css">
 ```
 #### add styles
 ```scss
