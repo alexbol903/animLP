@@ -1,24 +1,24 @@
 {
-  "name": "animlp.js",
+	"name": "animlp.js",
 	"version": "0.9.2",
 	"description": "Only 3kb, lightweight scroll animation library for landing pages",
 	"main": "lib/animLP.min.js",
 	"repository": "https://github.com/alexbol903/animLP.git",
 	"files": [
-    "lib/"
-  ],
-  "bugs": "https://github.com/alexbol903/animLP/issues",
-  "license": "MIT",
-  "keywords": [
-    "scroll",
-    "on scroll",
-    "animate",
-    "animations",
-    "animate on scroll",
-    "performance",
-    "css",
-    "landing page"
-  ],
+		"lib/"
+	],
+	"bugs": "https://github.com/alexbol903/animLP/issues",
+	"license": "MIT",
+	"keywords": [
+		"scroll",
+		"on scroll",
+		"animate",
+		"animations",
+		"animate on scroll",
+		"performance",
+		"css",
+		"landing page"
+	],
 	"scripts": {
 		"dev": "gulp watch",
 		"build": "gulp",
@@ -52,7 +52,7 @@
 		"@babel/core": "^7.3.4",
 		"@babel/preset-env": "^7.3.4",
 		"babel-jest": "^24.8.0",
-		"browser-sync": "^2.26.3",
+		"browser-sync": "^2.26.7",
 		"gulp": "^4.0.0",
 		"gulp-autoprefixer": "^6.0.0",
 		"gulp-babel": "^8.0.0",
